@@ -210,7 +210,7 @@ class renderer extends \tool_brickfield\output\renderer {
      */
     private function image_path(): string {
         global $CFG;
-        return $CFG->wwwroot . '/admin/tool/brickfield/pix/pdf/';
+        return './pix/pdf/';
     }
 
     /**
